@@ -293,7 +293,7 @@ header ul li a:hover{
 
 footer{
     position: absolute;
-    left: 45rem;
+    left: 39rem;
     bottom: 1rem;
 }
 
@@ -407,6 +407,23 @@ footer{
     }
 }
 
+@media(max-width:820px){
+    .watch-wrapper img{
+        position: absolute;
+        max-width: 350px;
+        top: 24rem;
+    }
+
+    .btn-wrapper a{
+        top: 6rem;
+    }
+
+    footer{
+        left: 17rem;
+        bottom: 2rem;
+    }
+}
+
 @media (max-width:770px){
 
     section{
@@ -492,7 +509,7 @@ footer{
     }
 
     .content .imgBox img{
-        top: .5rem;
+        top: .4rem;
         width: 180px;
     }
 
@@ -531,7 +548,7 @@ footer{
 
     .content .textBox a{
         position: relative;
-        top: 16rem;
+        top: 16.5rem;
         left: 6rem;
         padding: 4px 10px;
         border-radius: 20px;
@@ -544,7 +561,7 @@ footer{
         max-width: 250px;
         display: inline-block;
         justify-content:flex-start;
-        top: 38rem;
+        top: 45rem;
         left: 5rem;
 
 
@@ -577,9 +594,26 @@ footer{
 
 @media(max-width: 378px){
 
+    .content .textBox h2{
+        font-size: 2.5rem;
+    }
+
+    .content .textBox p{
+        font-size: 16px;
+    }
+
     .watch-wrapper img{
         max-width: 200px;
-        top: 46rem;
+        top: 49rem;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+
+    .content .textBox a{
+        left: 5rem;
+        top: 16.5rem;
     }
 }
 
