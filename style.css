@@ -692,6 +692,16 @@ footer{
 
 }
 
+@media (max-width:415px){
+    .watch-wrapper img{
+        top: 35rem
+    }
+
+    .btn-wrapper{
+        top: 40rem;
+    }
+}
+
 
 @media(max-width: 378px){
 
